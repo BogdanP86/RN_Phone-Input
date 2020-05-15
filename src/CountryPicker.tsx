@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { View, Dimensions, TouchableOpacity, Image, Button } from 'react-native';
+import { View, Dimensions, TouchableOpacity, Image } from 'react-native';
 import { Picker } from '@react-native-community/picker';
-
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { Button, Icon } from 'react-native-elements';
 import Modal from 'react-native-modal';
 
 const { width: dWidth, height } = Dimensions.get('window');
@@ -171,6 +170,7 @@ export const CountryPicker = (props: ICountry) => {
         />
         <Icon
           name="chevron-down"
+          type="material-community"
           size={30}
           color="#d0d0d0"
         />
