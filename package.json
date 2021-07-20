@@ -21,7 +21,7 @@
     "@types/react-native-vector-icons": "^6.4.5",
     "google-libphonenumber": "^3.2.9",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.62.3",
     "react-native-elements": "^2.0.0",
     "react-native-fast-image": "^8.1.5",
     "react-native-modal": "^11.5.6"
